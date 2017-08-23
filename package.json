@@ -1,0 +1,30 @@
+{
+  "name": "log-stdio",
+  "version": "0.1.0",
+  "description": "Logs stdin and stdout of an arbitrary command in order to debug its communication.",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "postinstall": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olydis/log-stdio.git"
+  },
+  "keywords": [
+    "log",
+    "stdin",
+    "stdout",
+    "proxy"
+  ],
+  "author": "Johannes Bader",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olydis/log-stdio/issues"
+  },
+  "homepage": "https://github.com/olydis/log-stdio#readme",
+  "dependencies": {
+    "@types/node": "^8.0.24",
+    "typescript": "^2.4.2"
+  }
+}

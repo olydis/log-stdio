@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "forceConsistentCasingInFileNames": false,
+        "lib": [
+            "es2016"
+        ],
+        "module": "commonjs",
+        "newLine": "LF",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "strict": true,
+        "target": "es2016",
+        "types": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

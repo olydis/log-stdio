@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+    "[typescript]": {
+        "editor.formatOnPaste": true,
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+    },
+    "files.exclude": {
+        "node_modules/**": true,
+        "dist/**": true,
+        ".vscode/**": true
+    }
+}

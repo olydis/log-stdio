@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "description": "Logs stdin and stdout of an arbitrary command in order to debug its communication.",
   "main": "dist/app.js",
+  "bin": {
+    "log": "./dist/app.js",
+    "log-stdio": "./dist/app.js",
+    "stdio": "./dist/app.js"
+  },
   "scripts": {
     "start": "node dist/app.js",
     "postinstall": "tsc"
